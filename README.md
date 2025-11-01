@@ -40,7 +40,7 @@ Postorder Output: x1 5.12 + x2 7.68 - * x3 /
 Result: -26.63
 ```
 
-# 🧩 Project Structure
+## 🧩 Project Structure
 ```
 bin/                 # Contains executable files
 src/
@@ -52,13 +52,13 @@ src/
 Makefile         # Build automation for all targets
 ```
 
-# 🧱 Compilation
+## 🧱 Compilation
 To compile all executables:
 ```
 make
 ```
 
-# ▶️ Usage
+## ▶️ Usage
 Run the traversal programs individually, i.e.:
 ```bash
 ./bin/inorder "(((x1+5.12)*(x2-7.68))/x3)"
@@ -68,7 +68,7 @@ Run with variable substitution to evaluate, i.e:
 ./bin/calculate "(((x1+5.12)*(x2-7.68))/x3)" "x1=1.25;x2=3.50;x3=1.00"
 ```
 
-# ✅ Assumptions and Constraints
+## ✅ Assumptions and Constraints
 [x] Negative numbers are not allowed in the second argument.
 [x] Floating-point results are rounded to 2 decimal digits.
 [x] Each variable must appear exactly once in the substitution list.
